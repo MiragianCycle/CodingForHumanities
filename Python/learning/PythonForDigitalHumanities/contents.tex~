@@ -1,0 +1,99 @@
+% Created 2022-11-18 Fri 01:06
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Theena Kumaragurunathan}
+\date{Fri Nov 18 12:16:00 AM +0530 2022}
+\title{Python for Digital Humanities}
+\hypersetup{
+ pdfauthor={Theena Kumaragurunathan},
+ pdftitle={Python for Digital Humanities},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.1 (Org mode 9.3)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES}
+\label{sec:org8c04447}
+\subsection{Resources}
+\label{sec:orgc562adf}
+\subsection{Requirements}
+\label{sec:org1463f69}
+\subsection{Acknowledgements}
+\label{sec:org592ac88}
+\section{PART 1 WORKING WITH DATA IN PYTHON SCRIPTS}
+\label{sec:org0861004}
+\subsection{Lesson 2: Story Data in PYthon Script}
+\label{sec:org2cdd437}
+\subsection{Lesson 3: Interacting with Strings in a Python Script}
+\label{sec:org5eda595}
+\subsection{Lesson 4: Interacting with Numbers in Python (Integers and Floats)}
+\label{sec:org3744d93}
+\section{PART 2 DATA STRUCTURES IN PYTHON}
+\label{sec:org99c75b3}
+\subsection{Lesson 5: Creating and Working with Types in Python}
+\label{sec:orgbb19067}
+\subsection{Lesson 6: Creating and Working with Lists in Python}
+\label{sec:orgc2c0aed}
+\subsection{Lesson 7: Creating and Working with Dictionaries in Python}
+\label{sec:orgf2e221b}
+\section{PART 3 INTERACTING WITH DATA STRUCTURES IN PYTHON}
+\label{sec:org9a5203a}
+\subsection{Lesson 8: Python Conditionals}
+\label{sec:orgab2a568}
+\subsection{Lesson 9: Python Loops}
+\label{sec:org63ba4bf}
+\subsection{Lesson 10: Python Functions}
+\label{sec:org1a25423}
+\subsection{Lesson 11: Python Classes}
+\label{sec:orga42184a}
+\section{PART 4 WORKING WITH TEXT DATA}
+\label{sec:orgdec64db}
+\subsection{Lesson 12: Python and Text Files}
+\label{sec:org0bee413}
+\subsection{Lesson 13: Python and Modules and Libraries}
+\label{sec:org69d2c66}
+\subsection{Lesson 14: Working with Regex Library (1)}
+\label{sec:orgd3bad2d}
+\subsection{Lesson 15: Working With Regex Library (2)}
+\label{sec:orgc23d238}
+\section{PART 5 PYTHON AND WORKING WITH DATA STORED IN EXCEL}
+\label{sec:org0e928e3}
+\subsection{Lesson 16: Reading Data from Excel Using the XLRD Library}
+\label{sec:orgf54854d}
+\subsection{Lesson 17: Searching Data Imported from Excel}
+\label{sec:orgcc2fb12}
+\subsection{Lesson 18: Writing Data to Excel Files using the XLSWXWRITER Library}
+\label{sec:orgc62ba7e}
+\section{PART 6 PYTHON AND WORKING WITH DATA FROM THE WEB}
+\label{sec:orgf71a968}
+\subsection{Lesson 19: Finding HTML Code from a website}
+\label{sec:org1cef75e}
+\subsection{Lesson 20: Using the Python Library Requests to Interact with a Website}
+\label{sec:org9f8eba4}
+\subsection{Lesson 21: Using the Python Library Beautiful Soup to Rip Data from a Website}
+\label{sec:org2ab94d9}
+\section{PART 7 PYTHON AND WAYS TO STORE DATA}
+\label{sec:org9353693}
+\subsection{Lesson 22: Storing Data in Text Files}
+\label{sec:org0fb4b51}
+\subsection{Lesson 23: Storing Data in XML Files}
+\label{sec:org0360d7c}
+\end{document}

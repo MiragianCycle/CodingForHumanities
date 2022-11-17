@@ -1,8 +1,13 @@
 #+TITLE: Python for Digital Humanities
 #+AUTHOR: Theena Kumaragurunathan
-#+DATE": Fri Nov 18 12:16:00 AM +0530 2022
+#+DATE: Fri Nov 18 12:16:00 AM +0530 2022
+#+EMAIL: theenat.k@gmail.com
 
 * Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES
+** Resources
+This notebook is based on lessons found here: [[https://pythonhumanities.com/][Python For Humanities]]
+** Requirements
+** Acknowledgements
 * PART 1 WORKING WITH DATA IN PYTHON SCRIPTS
 ** Lesson 2: Story Data in PYthon Script
 ** Lesson 3: Interacting with Strings in a Python Script
