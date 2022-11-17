@@ -3,7 +3,32 @@
 #+DATE": Fri Nov 18 12:16:00 AM +0530 2022
 
 * Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES
-* Part 1 WORKING WITH DATA IN PYTHON SCRIPTS
+* PART 1 WORKING WITH DATA IN PYTHON SCRIPTS
 ** Lesson 2: Story Data in PYthon Script
 ** Lesson 3: Interacting with Strings in a Python Script
 ** Lesson 4: Interacting with Numbers in Python (Integers and Floats)
+* PART 2 DATA STRUCTURES IN PYTHON
+** Lesson 5: Creating and Working with Types in Python
+** Lesson 6: Creating and Working with Lists in Python
+** Lesson 7: Creating and Working with Dictionaries in Python
+* PART 3 INTERACTING WITH DATA STRUCTURES IN PYTHON
+** Lesson 8: Python Conditionals
+** Lesson 9: Python Loops
+** Lesson 10: Python Functions
+** Lesson 11: Python Classes
+* PART 4 WORKING WITH TEXT DATA
+** Lesson 12: Python and Text Files
+** Lesson 13: Python and Modules and Libraries
+** Lesson 14: Working with Regex Library (1)
+** Lesson 15: Working With Regex Library (2)
+* PART 5 PYTHON AND WORKING WITH DATA STORED IN EXCEL
+** Lesson 16: Reading Data from Excel Using the XLRD Library
+** Lesson 17: Searching Data Imported from Excel
+** Lesson 18: Writing Data to Excel Files using the XLSWXWRITER Library
+* PART 6 PYTHON AND WORKING WITH DATA FROM THE WEB
+** Lesson 19: Finding HTML Code from a website
+** Lesson 20: Using the Python Library Requests to Interact with a Website
+** Lesson 21: Using the Python Library Beautiful Soup to Rip Data from a Website
+* PART 7 PYTHON AND WAYS TO STORE DATA
+** Lesson 22: Storing Data in Text Files
+** Lesson 23: Storing Data in XML Files
