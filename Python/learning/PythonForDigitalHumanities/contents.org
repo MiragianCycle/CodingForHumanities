@@ -1,0 +1,9 @@
+#+TITLE: Python for Digital Humanities
+#+AUTHOR: Theena Kumaragurunathan
+#+DATE": Fri Nov 18 12:16:00 AM +0530 2022
+
+* Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES
+* Part 1 WORKING WITH DATA IN PYTHON SCRIPTS
+** Lesson 2: Story Data in PYthon Script
+** Lesson 3: Interacting with Strings in a Python Script
+** Lesson 4: Interacting with Numbers in Python (Integers and Floats)
