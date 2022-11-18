@@ -2,12 +2,65 @@
 #+AUTHOR: Theena Kumaragurunathan
 #+DATE: Fri Nov 18 12:16:00 AM +0530 2022
 #+EMAIL: theenat.k@gmail.com
+#+LICENS: MIT
 
 * Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES
 ** Resources
 This notebook is based on lessons found here: [[https://pythonhumanities.com/][Python For Humanities]]
 ** Requirements
+   1. Python 3.8 or >
+   2. A text editor of your choice, but preferably PyCharm
+
 ** Acknowledgements
+   This notebook owes a debt of gratitude to Python tutors all over the web,
+   who have spent the last few decades evangelizing its usage outside the
+   traditional domains of computer programming, arguing cogently that here
+   was a language for everybody who uses computers to do any manner of
+   computational work, whether that is writing a novel, a thesis, analyzing
+   excel sheets, or reading PDFs while researching. In all these use cases,
+   and more, Python finds itself to be a useful utility.
+
+   This notebook follows the coursework made available by [[https://datascience.si.edu/people/dr-william-mattingly][Dr William Mattingly]]] on [[https://pythonhumanities.com/][PythonHumanities.Com]]
+** Copyright
+This is an *open notebook* based on the course created and taught by Dr William Mattingly. As such, the *material belongs to Dr Mattingly*; these are merely my notes.
+
+I am making this freely available in the hope that it helps a Humanities student who is looking to get a head start in their Python programming journey.
+
+I am unsure which licensing bracket this repo falls into. I will only restate for absolute clarity that the structure and substance of this course material is the work of Dr William Mattingly.
+
+While Dr Mattingly's course is geared towards a specific audience, my notes will have additional editorial notes meant for me. I hope this extra editorializing is useful to anyone who comes across this repo, but if it's not, you are free to adapt these notes to your own ways of thinking and recalling concepts. If you wish to fork this repo, please ensure that you make clear that the course material itself belongs to Dr William Mattingly.
+
+I welcome any pull requests! The notebook was written in a hurry, to meet a specific work-related need on my end - all errors - whether in text or code, are mine. Please feel free to send a pull request if corrections are needed.
+
+
+** What is Python
+Python is a general purpose *interpreted* programming lanuage.
+
+It is _general purpose_ because its usage is wide, finding utility across a diverse range of disciplines. Finance professionals use it to analyze Excel data, data scientists use it find insights in vast troves of statistical data, programmers themselves use it to create simple applications to solve specific every-day problems they come across in their day-to-day work. Those of us outside the world of code and financial data, will find Python just as useful: automating the downloading of public domain images, summarizing an academic paper, finding keywords in a research report using textual analysis. The writer/programmer/educator Al Sweigart's [[https://automatetheboringstuff.com/][Automate the Boring Stuff With Python]] highlights the many ways the menial tasks that we perform on computers can be relegated to Python. In this way, I liken it to a Swiss Army Knife of programming languages.
+
+Programming languages are of two main types:
+- Compiled
+- Interpretted
+
+The distinction between is useful to know.
+
+Since we are speaking of /languages/, the distinction between the two can be likened to reading a set of instructions - let's assume a recipe for a curry; the instructions are written in Sinhala. There are two ways for you to follow the instructions: /either look for a translation of the recipe/ or /have a friend who reads the language to read the instructions line by line/.
+
+In this analogy, the translated version of the recipe is a /Compiled Language/, while the friend offering you line-by-line translations, is the /Interpretted Language/
+
+The advantages of one over the other is beyond the scope of this course.
+
+** Why Python
+Why Python specifically then? Why not the C programming language?
+
+If we go back to the language analogy, we know from real life experience that some languages are easier to pick up than others. Python excels because its grammar and lexicon are easier to grasp for the non-computer programmer. Python's syntax, once internalized, has a logic that isn't unlike learning a human language - in fact, Python's code is especially known for being _readable_ in a way, say, code written in /C/ or /C++/ or /Java/ aren't.
+
+As a result, Python users are diverse, encompassing people from the technical to the non-technical, from the sciences to the arts, and everyone in between.
+
+There is of course nothing wrong with learning C or any other programming language if you are feeling motivated, but to employ C to do many of the tasks that non-programmers typically perform on computers, will be the equivalent of using /Excaliber/ to slice a loaf of bread; it will get the job done, but you might damage your kitchen in the process.
+
+** Installing Python
+** Pythonic
 * PART 1 WORKING WITH DATA IN PYTHON SCRIPTS
 ** Lesson 2: Story Data in PYthon Script
 ** Lesson 3: Interacting with Strings in a Python Script
@@ -37,4 +90,4 @@ This notebook is based on lessons found here: [[https://pythonhumanities.com/][P
 * PART 7 PYTHON AND WAYS TO STORE DATA
 ** Lesson 22: Storing Data in Text Files
 ** Lesson 23: Storing Data in XML Files
-*  
+

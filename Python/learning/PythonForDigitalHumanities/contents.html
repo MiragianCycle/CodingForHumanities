@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-11-18 Fri 01:07 -->
+<!-- 2022-11-18 Fri 13:38 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Python for Digital Humanities</title>
@@ -247,192 +247,309 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org6121e12">1. Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES</a>
+<li><a href="#orgd3b148d">1. Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES</a>
 <ul>
-<li><a href="#org2eaed1a">1.1. Resources</a></li>
-<li><a href="#orga265c7f">1.2. Requirements</a></li>
-<li><a href="#org6208d46">1.3. Acknowledgements</a></li>
+<li><a href="#org83127b9">1.1. Resources</a></li>
+<li><a href="#orge719aa3">1.2. Requirements</a></li>
+<li><a href="#org0d8510c">1.3. Acknowledgements</a></li>
+<li><a href="#org7c5c43c">1.4. Copyright</a></li>
+<li><a href="#orga4a722c">1.5. What is Python</a></li>
+<li><a href="#org273ac78">1.6. Why Python</a></li>
+<li><a href="#orgd05d08a">1.7. Installing Python</a></li>
+<li><a href="#orgded915d">1.8. Pythonic</a></li>
 </ul>
 </li>
-<li><a href="#orgb452ac8">2. PART 1 WORKING WITH DATA IN PYTHON SCRIPTS</a>
+<li><a href="#org98210ea">2. PART 1 WORKING WITH DATA IN PYTHON SCRIPTS</a>
 <ul>
-<li><a href="#org7aea5c4">2.1. Lesson 2: Story Data in PYthon Script</a></li>
-<li><a href="#org4a9e780">2.2. Lesson 3: Interacting with Strings in a Python Script</a></li>
-<li><a href="#orga5d6e86">2.3. Lesson 4: Interacting with Numbers in Python (Integers and Floats)</a></li>
+<li><a href="#orgb387508">2.1. Lesson 2: Story Data in PYthon Script</a></li>
+<li><a href="#org58c10f2">2.2. Lesson 3: Interacting with Strings in a Python Script</a></li>
+<li><a href="#org1319563">2.3. Lesson 4: Interacting with Numbers in Python (Integers and Floats)</a></li>
 </ul>
 </li>
-<li><a href="#org8d4ce51">3. PART 2 DATA STRUCTURES IN PYTHON</a>
+<li><a href="#orgda8645f">3. PART 2 DATA STRUCTURES IN PYTHON</a>
 <ul>
-<li><a href="#orgad3fa25">3.1. Lesson 5: Creating and Working with Types in Python</a></li>
-<li><a href="#orgd7269fb">3.2. Lesson 6: Creating and Working with Lists in Python</a></li>
-<li><a href="#orgb6c44db">3.3. Lesson 7: Creating and Working with Dictionaries in Python</a></li>
+<li><a href="#org77e1d72">3.1. Lesson 5: Creating and Working with Types in Python</a></li>
+<li><a href="#org5cb9253">3.2. Lesson 6: Creating and Working with Lists in Python</a></li>
+<li><a href="#orgee9931f">3.3. Lesson 7: Creating and Working with Dictionaries in Python</a></li>
 </ul>
 </li>
-<li><a href="#org0cbe2e5">4. PART 3 INTERACTING WITH DATA STRUCTURES IN PYTHON</a>
+<li><a href="#orgba39b9e">4. PART 3 INTERACTING WITH DATA STRUCTURES IN PYTHON</a>
 <ul>
-<li><a href="#org62df02d">4.1. Lesson 8: Python Conditionals</a></li>
-<li><a href="#org1335f73">4.2. Lesson 9: Python Loops</a></li>
-<li><a href="#orgd122739">4.3. Lesson 10: Python Functions</a></li>
-<li><a href="#org25d32cc">4.4. Lesson 11: Python Classes</a></li>
+<li><a href="#org69a7812">4.1. Lesson 8: Python Conditionals</a></li>
+<li><a href="#orga74bb77">4.2. Lesson 9: Python Loops</a></li>
+<li><a href="#org22806bb">4.3. Lesson 10: Python Functions</a></li>
+<li><a href="#org26a70ac">4.4. Lesson 11: Python Classes</a></li>
 </ul>
 </li>
-<li><a href="#org97a5a47">5. PART 4 WORKING WITH TEXT DATA</a>
+<li><a href="#org9d53975">5. PART 4 WORKING WITH TEXT DATA</a>
 <ul>
-<li><a href="#org898ca34">5.1. Lesson 12: Python and Text Files</a></li>
-<li><a href="#org7261071">5.2. Lesson 13: Python and Modules and Libraries</a></li>
-<li><a href="#orgba93eaa">5.3. Lesson 14: Working with Regex Library (1)</a></li>
-<li><a href="#org35e186e">5.4. Lesson 15: Working With Regex Library (2)</a></li>
+<li><a href="#org130b388">5.1. Lesson 12: Python and Text Files</a></li>
+<li><a href="#orga2a14af">5.2. Lesson 13: Python and Modules and Libraries</a></li>
+<li><a href="#org2e2b4bd">5.3. Lesson 14: Working with Regex Library (1)</a></li>
+<li><a href="#orgadd62cd">5.4. Lesson 15: Working With Regex Library (2)</a></li>
 </ul>
 </li>
-<li><a href="#org91717f7">6. PART 5 PYTHON AND WORKING WITH DATA STORED IN EXCEL</a>
+<li><a href="#orge60fc74">6. PART 5 PYTHON AND WORKING WITH DATA STORED IN EXCEL</a>
 <ul>
-<li><a href="#org7039cc1">6.1. Lesson 16: Reading Data from Excel Using the XLRD Library</a></li>
-<li><a href="#orgb0da12d">6.2. Lesson 17: Searching Data Imported from Excel</a></li>
-<li><a href="#org61d0e78">6.3. Lesson 18: Writing Data to Excel Files using the XLSWXWRITER Library</a></li>
+<li><a href="#org63f03e1">6.1. Lesson 16: Reading Data from Excel Using the XLRD Library</a></li>
+<li><a href="#org477f833">6.2. Lesson 17: Searching Data Imported from Excel</a></li>
+<li><a href="#org5702590">6.3. Lesson 18: Writing Data to Excel Files using the XLSWXWRITER Library</a></li>
 </ul>
 </li>
-<li><a href="#org707df79">7. PART 6 PYTHON AND WORKING WITH DATA FROM THE WEB</a>
+<li><a href="#org703e723">7. PART 6 PYTHON AND WORKING WITH DATA FROM THE WEB</a>
 <ul>
-<li><a href="#orgf8d2419">7.1. Lesson 19: Finding HTML Code from a website</a></li>
-<li><a href="#org807f4f0">7.2. Lesson 20: Using the Python Library Requests to Interact with a Website</a></li>
-<li><a href="#orgc6208fa">7.3. Lesson 21: Using the Python Library Beautiful Soup to Rip Data from a Website</a></li>
+<li><a href="#orgd690b20">7.1. Lesson 19: Finding HTML Code from a website</a></li>
+<li><a href="#orgd31b609">7.2. Lesson 20: Using the Python Library Requests to Interact with a Website</a></li>
+<li><a href="#org58f9d1e">7.3. Lesson 21: Using the Python Library Beautiful Soup to Rip Data from a Website</a></li>
 </ul>
 </li>
-<li><a href="#org1b3e7a7">8. PART 7 PYTHON AND WAYS TO STORE DATA</a>
+<li><a href="#org248dd8b">8. PART 7 PYTHON AND WAYS TO STORE DATA</a>
 <ul>
-<li><a href="#orgc984826">8.1. Lesson 22: Storing Data in Text Files</a></li>
-<li><a href="#org0adead2">8.2. Lesson 23: Storing Data in XML Files</a></li>
+<li><a href="#org2d39b4e">8.1. Lesson 22: Storing Data in Text Files</a></li>
+<li><a href="#orgfbf1c0e">8.2. Lesson 23: Storing Data in XML Files</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org6121e12" class="outline-2">
-<h2 id="org6121e12"><span class="section-number-2">1</span> Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES</h2>
+<div id="outline-container-orgd3b148d" class="outline-2">
+<h2 id="orgd3b148d"><span class="section-number-2">1</span> Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org2eaed1a" class="outline-3">
-<h3 id="org2eaed1a"><span class="section-number-3">1.1</span> Resources</h3>
+<div id="outline-container-org83127b9" class="outline-3">
+<h3 id="org83127b9"><span class="section-number-3">1.1</span> Resources</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 This notebook is based on lessons found here: <a href="https://pythonhumanities.com/">Python For Humanities</a>
 </p>
 </div>
 </div>
-<div id="outline-container-orga265c7f" class="outline-3">
-<h3 id="orga265c7f"><span class="section-number-3">1.2</span> Requirements</h3>
+<div id="outline-container-orge719aa3" class="outline-3">
+<h3 id="orge719aa3"><span class="section-number-3">1.2</span> Requirements</h3>
+<div class="outline-text-3" id="text-1-2">
+<ol class="org-ol">
+<li>Python 3.8 or &gt;</li>
+<li>A text editor of your choice, but preferably PyCharm</li>
+</ol>
 </div>
-<div id="outline-container-org6208d46" class="outline-3">
-<h3 id="org6208d46"><span class="section-number-3">1.3</span> Acknowledgements</h3>
+</div>
+
+<div id="outline-container-org0d8510c" class="outline-3">
+<h3 id="org0d8510c"><span class="section-number-3">1.3</span> Acknowledgements</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+This notebook owes a debt of gratitude to Python tutors all over the web,
+who have spent the last few decades evangelizing its usage outside the
+traditional domains of computer programming, arguing cogently that here
+was a language for everybody who uses computers to do any manner of
+computational work, whether that is writing a novel, a thesis, analyzing
+excel sheets, or reading PDFs while researching. In all these use cases,
+and more, Python finds itself to be a useful utility.
+</p>
+
+<p>
+This notebook follows the coursework made available by <a href="https://datascience.si.edu/people/dr-william-mattingly">Dr William Mattingly</a>] on <a href="https://pythonhumanities.com/">PythonHumanities.Com</a>
+</p>
 </div>
 </div>
-<div id="outline-container-orgb452ac8" class="outline-2">
-<h2 id="orgb452ac8"><span class="section-number-2">2</span> PART 1 WORKING WITH DATA IN PYTHON SCRIPTS</h2>
+<div id="outline-container-org7c5c43c" class="outline-3">
+<h3 id="org7c5c43c"><span class="section-number-3">1.4</span> Copyright</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+This is an <b>open notebook</b> based on the course created and taught by Dr William Mattingly. As such, the <b>material belongs to Dr Mattingly</b>; these are merely my notes.
+</p>
+
+<p>
+I am making this freely available in the hope that it helps a Humanities student who is looking to get a head start in their Python programming journey.
+</p>
+
+<p>
+I am unsure which licensing bracket this repo falls into. I will only restate for absolute clarity that the structure and substance of this course material is the work of Dr William Mattingly.
+</p>
+
+<p>
+While Dr Mattingly's course is geared towards a specific audience, my notes will have additional editorial notes meant for me. I hope this extra editorializing is useful to anyone who comes across this repo, but if it's not, you are free to adapt these notes to your own ways of thinking and recalling concepts. If you wish to fork this repo, please ensure that you make clear that the course material itself belongs to Dr William Mattingly.
+</p>
+
+<p>
+I welcome any pull requests! The notebook was written in a hurry, to meet a specific work-related need on my end - all errors - whether in text or code, are mine. Please feel free to send a pull request if corrections are needed.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orga4a722c" class="outline-3">
+<h3 id="orga4a722c"><span class="section-number-3">1.5</span> What is Python</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+Python is a general purpose <b>interpreted</b> programming lanuage.
+</p>
+
+<p>
+It is <span class="underline">general purpose</span> because its usage is wide, finding utility across a diverse range of disciplines. Finance professionals use it to analyze Excel data, data scientists use it find insights in vast troves of statistical data, programmers themselves use it to create simple applications to solve specific every-day problems they come across in their day-to-day work. Those of us outside the world of code and financial data, will find Python just as useful: automating the downloading of public domain images, summarizing an academic paper, finding keywords in a research report using textual analysis. The writer/programmer/educator Al Sweigart's <a href="https://automatetheboringstuff.com/">Automate the Boring Stuff With Python</a> highlights the many ways the menial tasks that we perform on computers can be relegated to Python. In this way, I liken it to a Swiss Army Knife of programming languages.
+</p>
+
+<p>
+Programming languages are of two main types:
+</p>
+<ul class="org-ul">
+<li>Compiled</li>
+<li>Interpretted</li>
+</ul>
+
+<p>
+The distinction between is useful to know.
+</p>
+
+<p>
+Since we are speaking of <i>languages</i>, the distinction between the two can be likened to reading a set of instructions - let's assume a recipe for a curry; the instructions are written in Sinhala. There are two ways for you to follow the instructions: <i>either look for a translation of the recipe</i> or <i>have a friend who reads the language to read the instructions line by line</i>.
+</p>
+
+<p>
+In this analogy, the translated version of the recipe is a <i>Compiled Language</i>, while the friend offering you line-by-line translations, is the <i>Interpretted Language</i>
+</p>
+
+<p>
+The advantages of one over the other is beyond the scope of this course.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org273ac78" class="outline-3">
+<h3 id="org273ac78"><span class="section-number-3">1.6</span> Why Python</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+Why Python specifically then? Why not the C programming language?
+</p>
+
+<p>
+If we go back to the language analogy, we know from real life experience that some languages are easier to pick up than others. Python excels because its grammar and lexicon are easier to grasp for the non-computer programmer. Python's syntax, once internalized, has a logic that isn't unlike learning a human language - in fact, Python's code is especially known for being <span class="underline">readable</span> in a way, say, code written in <i>C</i> or <i>C++</i> or <i>Java</i> aren't.
+</p>
+
+<p>
+As a result, Python users are diverse, encompassing people from the technical to the non-technical, from the sciences to the arts, and everyone in between.
+</p>
+
+<p>
+There is of course nothing wrong with learning C or any other programming language if you are feeling motivated, but to employ C to do many of the tasks that non-programmers typically perform on computers, will be the equivalent of using <i>Excaliber</i> to slice a loaf of bread; it will get the job done, but you might damage your kitchen in the process.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd05d08a" class="outline-3">
+<h3 id="orgd05d08a"><span class="section-number-3">1.7</span> Installing Python</h3>
+</div>
+<div id="outline-container-orgded915d" class="outline-3">
+<h3 id="orgded915d"><span class="section-number-3">1.8</span> Pythonic</h3>
+</div>
+</div>
+<div id="outline-container-org98210ea" class="outline-2">
+<h2 id="org98210ea"><span class="section-number-2">2</span> PART 1 WORKING WITH DATA IN PYTHON SCRIPTS</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org7aea5c4" class="outline-3">
-<h3 id="org7aea5c4"><span class="section-number-3">2.1</span> Lesson 2: Story Data in PYthon Script</h3>
+<div id="outline-container-orgb387508" class="outline-3">
+<h3 id="orgb387508"><span class="section-number-3">2.1</span> Lesson 2: Story Data in PYthon Script</h3>
 </div>
-<div id="outline-container-org4a9e780" class="outline-3">
-<h3 id="org4a9e780"><span class="section-number-3">2.2</span> Lesson 3: Interacting with Strings in a Python Script</h3>
+<div id="outline-container-org58c10f2" class="outline-3">
+<h3 id="org58c10f2"><span class="section-number-3">2.2</span> Lesson 3: Interacting with Strings in a Python Script</h3>
 </div>
-<div id="outline-container-orga5d6e86" class="outline-3">
-<h3 id="orga5d6e86"><span class="section-number-3">2.3</span> Lesson 4: Interacting with Numbers in Python (Integers and Floats)</h3>
+<div id="outline-container-org1319563" class="outline-3">
+<h3 id="org1319563"><span class="section-number-3">2.3</span> Lesson 4: Interacting with Numbers in Python (Integers and Floats)</h3>
 </div>
 </div>
-<div id="outline-container-org8d4ce51" class="outline-2">
-<h2 id="org8d4ce51"><span class="section-number-2">3</span> PART 2 DATA STRUCTURES IN PYTHON</h2>
+<div id="outline-container-orgda8645f" class="outline-2">
+<h2 id="orgda8645f"><span class="section-number-2">3</span> PART 2 DATA STRUCTURES IN PYTHON</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-orgad3fa25" class="outline-3">
-<h3 id="orgad3fa25"><span class="section-number-3">3.1</span> Lesson 5: Creating and Working with Types in Python</h3>
+<div id="outline-container-org77e1d72" class="outline-3">
+<h3 id="org77e1d72"><span class="section-number-3">3.1</span> Lesson 5: Creating and Working with Types in Python</h3>
 </div>
-<div id="outline-container-orgd7269fb" class="outline-3">
-<h3 id="orgd7269fb"><span class="section-number-3">3.2</span> Lesson 6: Creating and Working with Lists in Python</h3>
+<div id="outline-container-org5cb9253" class="outline-3">
+<h3 id="org5cb9253"><span class="section-number-3">3.2</span> Lesson 6: Creating and Working with Lists in Python</h3>
 </div>
-<div id="outline-container-orgb6c44db" class="outline-3">
-<h3 id="orgb6c44db"><span class="section-number-3">3.3</span> Lesson 7: Creating and Working with Dictionaries in Python</h3>
+<div id="outline-container-orgee9931f" class="outline-3">
+<h3 id="orgee9931f"><span class="section-number-3">3.3</span> Lesson 7: Creating and Working with Dictionaries in Python</h3>
 </div>
 </div>
-<div id="outline-container-org0cbe2e5" class="outline-2">
-<h2 id="org0cbe2e5"><span class="section-number-2">4</span> PART 3 INTERACTING WITH DATA STRUCTURES IN PYTHON</h2>
+<div id="outline-container-orgba39b9e" class="outline-2">
+<h2 id="orgba39b9e"><span class="section-number-2">4</span> PART 3 INTERACTING WITH DATA STRUCTURES IN PYTHON</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-org62df02d" class="outline-3">
-<h3 id="org62df02d"><span class="section-number-3">4.1</span> Lesson 8: Python Conditionals</h3>
+<div id="outline-container-org69a7812" class="outline-3">
+<h3 id="org69a7812"><span class="section-number-3">4.1</span> Lesson 8: Python Conditionals</h3>
 </div>
-<div id="outline-container-org1335f73" class="outline-3">
-<h3 id="org1335f73"><span class="section-number-3">4.2</span> Lesson 9: Python Loops</h3>
+<div id="outline-container-orga74bb77" class="outline-3">
+<h3 id="orga74bb77"><span class="section-number-3">4.2</span> Lesson 9: Python Loops</h3>
 </div>
-<div id="outline-container-orgd122739" class="outline-3">
-<h3 id="orgd122739"><span class="section-number-3">4.3</span> Lesson 10: Python Functions</h3>
+<div id="outline-container-org22806bb" class="outline-3">
+<h3 id="org22806bb"><span class="section-number-3">4.3</span> Lesson 10: Python Functions</h3>
 </div>
-<div id="outline-container-org25d32cc" class="outline-3">
-<h3 id="org25d32cc"><span class="section-number-3">4.4</span> Lesson 11: Python Classes</h3>
+<div id="outline-container-org26a70ac" class="outline-3">
+<h3 id="org26a70ac"><span class="section-number-3">4.4</span> Lesson 11: Python Classes</h3>
 </div>
 </div>
-<div id="outline-container-org97a5a47" class="outline-2">
-<h2 id="org97a5a47"><span class="section-number-2">5</span> PART 4 WORKING WITH TEXT DATA</h2>
+<div id="outline-container-org9d53975" class="outline-2">
+<h2 id="org9d53975"><span class="section-number-2">5</span> PART 4 WORKING WITH TEXT DATA</h2>
 <div class="outline-text-2" id="text-5">
 </div>
-<div id="outline-container-org898ca34" class="outline-3">
-<h3 id="org898ca34"><span class="section-number-3">5.1</span> Lesson 12: Python and Text Files</h3>
+<div id="outline-container-org130b388" class="outline-3">
+<h3 id="org130b388"><span class="section-number-3">5.1</span> Lesson 12: Python and Text Files</h3>
 </div>
-<div id="outline-container-org7261071" class="outline-3">
-<h3 id="org7261071"><span class="section-number-3">5.2</span> Lesson 13: Python and Modules and Libraries</h3>
+<div id="outline-container-orga2a14af" class="outline-3">
+<h3 id="orga2a14af"><span class="section-number-3">5.2</span> Lesson 13: Python and Modules and Libraries</h3>
 </div>
-<div id="outline-container-orgba93eaa" class="outline-3">
-<h3 id="orgba93eaa"><span class="section-number-3">5.3</span> Lesson 14: Working with Regex Library (1)</h3>
+<div id="outline-container-org2e2b4bd" class="outline-3">
+<h3 id="org2e2b4bd"><span class="section-number-3">5.3</span> Lesson 14: Working with Regex Library (1)</h3>
 </div>
-<div id="outline-container-org35e186e" class="outline-3">
-<h3 id="org35e186e"><span class="section-number-3">5.4</span> Lesson 15: Working With Regex Library (2)</h3>
+<div id="outline-container-orgadd62cd" class="outline-3">
+<h3 id="orgadd62cd"><span class="section-number-3">5.4</span> Lesson 15: Working With Regex Library (2)</h3>
 </div>
 </div>
-<div id="outline-container-org91717f7" class="outline-2">
-<h2 id="org91717f7"><span class="section-number-2">6</span> PART 5 PYTHON AND WORKING WITH DATA STORED IN EXCEL</h2>
+<div id="outline-container-orge60fc74" class="outline-2">
+<h2 id="orge60fc74"><span class="section-number-2">6</span> PART 5 PYTHON AND WORKING WITH DATA STORED IN EXCEL</h2>
 <div class="outline-text-2" id="text-6">
 </div>
-<div id="outline-container-org7039cc1" class="outline-3">
-<h3 id="org7039cc1"><span class="section-number-3">6.1</span> Lesson 16: Reading Data from Excel Using the XLRD Library</h3>
+<div id="outline-container-org63f03e1" class="outline-3">
+<h3 id="org63f03e1"><span class="section-number-3">6.1</span> Lesson 16: Reading Data from Excel Using the XLRD Library</h3>
 </div>
-<div id="outline-container-orgb0da12d" class="outline-3">
-<h3 id="orgb0da12d"><span class="section-number-3">6.2</span> Lesson 17: Searching Data Imported from Excel</h3>
+<div id="outline-container-org477f833" class="outline-3">
+<h3 id="org477f833"><span class="section-number-3">6.2</span> Lesson 17: Searching Data Imported from Excel</h3>
 </div>
-<div id="outline-container-org61d0e78" class="outline-3">
-<h3 id="org61d0e78"><span class="section-number-3">6.3</span> Lesson 18: Writing Data to Excel Files using the XLSWXWRITER Library</h3>
+<div id="outline-container-org5702590" class="outline-3">
+<h3 id="org5702590"><span class="section-number-3">6.3</span> Lesson 18: Writing Data to Excel Files using the XLSWXWRITER Library</h3>
 </div>
 </div>
-<div id="outline-container-org707df79" class="outline-2">
-<h2 id="org707df79"><span class="section-number-2">7</span> PART 6 PYTHON AND WORKING WITH DATA FROM THE WEB</h2>
+<div id="outline-container-org703e723" class="outline-2">
+<h2 id="org703e723"><span class="section-number-2">7</span> PART 6 PYTHON AND WORKING WITH DATA FROM THE WEB</h2>
 <div class="outline-text-2" id="text-7">
 </div>
-<div id="outline-container-orgf8d2419" class="outline-3">
-<h3 id="orgf8d2419"><span class="section-number-3">7.1</span> Lesson 19: Finding HTML Code from a website</h3>
+<div id="outline-container-orgd690b20" class="outline-3">
+<h3 id="orgd690b20"><span class="section-number-3">7.1</span> Lesson 19: Finding HTML Code from a website</h3>
 </div>
-<div id="outline-container-org807f4f0" class="outline-3">
-<h3 id="org807f4f0"><span class="section-number-3">7.2</span> Lesson 20: Using the Python Library Requests to Interact with a Website</h3>
+<div id="outline-container-orgd31b609" class="outline-3">
+<h3 id="orgd31b609"><span class="section-number-3">7.2</span> Lesson 20: Using the Python Library Requests to Interact with a Website</h3>
 </div>
-<div id="outline-container-orgc6208fa" class="outline-3">
-<h3 id="orgc6208fa"><span class="section-number-3">7.3</span> Lesson 21: Using the Python Library Beautiful Soup to Rip Data from a Website</h3>
+<div id="outline-container-org58f9d1e" class="outline-3">
+<h3 id="org58f9d1e"><span class="section-number-3">7.3</span> Lesson 21: Using the Python Library Beautiful Soup to Rip Data from a Website</h3>
 </div>
 </div>
-<div id="outline-container-org1b3e7a7" class="outline-2">
-<h2 id="org1b3e7a7"><span class="section-number-2">8</span> PART 7 PYTHON AND WAYS TO STORE DATA</h2>
+<div id="outline-container-org248dd8b" class="outline-2">
+<h2 id="org248dd8b"><span class="section-number-2">8</span> PART 7 PYTHON AND WAYS TO STORE DATA</h2>
 <div class="outline-text-2" id="text-8">
 </div>
-<div id="outline-container-orgc984826" class="outline-3">
-<h3 id="orgc984826"><span class="section-number-3">8.1</span> Lesson 22: Storing Data in Text Files</h3>
+<div id="outline-container-org2d39b4e" class="outline-3">
+<h3 id="org2d39b4e"><span class="section-number-3">8.1</span> Lesson 22: Storing Data in Text Files</h3>
 </div>
-<div id="outline-container-org0adead2" class="outline-3">
-<h3 id="org0adead2"><span class="section-number-3">8.2</span> Lesson 23: Storing Data in XML Files</h3>
+<div id="outline-container-orgfbf1c0e" class="outline-3">
+<h3 id="orgfbf1c0e"><span class="section-number-3">8.2</span> Lesson 23: Storing Data in XML Files</h3>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="date">Date: Fri Nov 18 12:16:00 AM +0530 2022</p>
 <p class="author">Author: Theena Kumaragurunathan</p>
-<p class="date">Created: 2022-11-18 Fri 01:07</p>
+<p class="date">Created: 2022-11-18 Fri 13:38</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
