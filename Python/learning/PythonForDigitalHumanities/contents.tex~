@@ -1,4 +1,4 @@
-% Created 2022-11-18 Fri 13:29
+% Created 2022-11-18 Fri 13:30
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -31,19 +31,19 @@
 
 
 \section{Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES}
-\label{sec:org9030769}
+\label{sec:orgcb638cf}
 \subsection{Resources}
-\label{sec:org7b5b7ed}
+\label{sec:org57e20c7}
 This notebook is based on lessons found here: \href{https://pythonhumanities.com/}{Python For Humanities}
 \subsection{Requirements}
-\label{sec:org410f5c6}
+\label{sec:orgbf3381f}
 \begin{enumerate}
 \item Python 3.8 or >
 \item A text editor of your choice, but preferably PyCharm
 \end{enumerate}
 
 \subsection{Acknowledgements}
-\label{sec:org7239e05}
+\label{sec:org24e3735}
 This notebook owes a debt of gratitude to Python tutors all over the web,
 who have spent the last few decades evangelizing its usage outside the
 traditional domains of computer programming, arguing cogently that here
@@ -54,7 +54,7 @@ and more, Python finds itself to be a useful utility.
 
 This notebook follows the coursework made available by \href{https://datascience.si.edu/people/dr-william-mattingly}{Dr William Mattingly}] on \href{https://pythonhumanities.com/}{PythonHumanities.Com}
 \subsection{Copyright}
-\label{sec:orgf94508a}
+\label{sec:org6fbc48f}
 This is an \textbf{open notebook} based on the course created and taught by Dr William Mattingly. As such, the \textbf{material belongs to Dr Mattingly}; these are merely my notes.
 
 I am making this freely available in the hope that it helps a Humanities student who is looking to get a head start in their Python programming journey.
@@ -67,7 +67,7 @@ I welcome any pull requests! The notebook was written in a hurry, to meet a spec
 
 
 \subsection{What is Python}
-\label{sec:org32e983f}
+\label{sec:org9d5bbbb}
 Python is a general purpose \textbf{interpreted} programming lanuage.
 
 It is \uline{general purpose} because its usage is wide, finding utility across a diverse range of disciplines. Finance professionals use it to analyze Excel data, data scientists use it find insights in vast troves of statistical data, programmers themselves use it to create simple applications to solve specific every-day problems they come across in their day-to-day work. Those of us outside the world of code and financial data, will find Python just as useful: automating the downloading of public domain images, summarizing an academic paper, finding keywords in a research report using textual analysis. The writer/programmer/educator Al Sweigart's \href{https://automatetheboringstuff.com/}{Automate the Boring Stuff With Python} highlights the many ways the menial tasks that we perform on computers can be relegated to Python. In this way, I liken it to a Swiss Army Knife of programming languages.
@@ -87,75 +87,75 @@ In this analogy, the translated version of the recipe is a \emph{Compiled Langua
 The advantages of one over the other is beyond the scope of this course.
 
 \subsection{Why Python}
-\label{sec:org828b4f4}
+\label{sec:org13411fd}
 Why Python specifically then? Why not the C programming language?
 
 If we go back to the language analogy, we know from real life experience that some languages are easier to pick up than others. Python excels because its grammar and lexicon are easier to grasp for the non-computer programmer. Python's syntax, once internalized, has a logic that isn't unlike learning a human language - in fact, Python's code is especially known for being \uline{readable} in a way, say, code written in \emph{C} or \emph{C++} or \emph{Java} aren't.
 
 As a result, Python users are diverse, encompassing people from the technical to the non-technical, from the sciences to the arts, and everyone in between.
 
-There is of course nothing wrong with learning C or any other programming language if you are feeling motivated, but to employ C to do many of the tasks that non-programmers typically perform on computers, will be the equivalent of using \emph{Excaliber} to slice a loaf of bread; it will get the job done, but you might damage your kitchen.
+There is of course nothing wrong with learning C or any other programming language if you are feeling motivated, but to employ C to do many of the tasks that non-programmers typically perform on computers, will be the equivalent of using \emph{Excaliber} to slice a loaf of bread; it will get the job done, but you might damage your kitchen in the process.
 
 \subsection{Installing Python}
-\label{sec:org7e0e8d8}
+\label{sec:org86b2dbe}
 \subsection{Pythonic}
-\label{sec:org0658963}
+\label{sec:org1698700}
 \section{PART 1 WORKING WITH DATA IN PYTHON SCRIPTS}
-\label{sec:orga926952}
+\label{sec:org1cc3413}
 \subsection{Lesson 2: Story Data in PYthon Script}
-\label{sec:orgc54fa0a}
+\label{sec:org02b31d1}
 \subsection{Lesson 3: Interacting with Strings in a Python Script}
-\label{sec:org1fd7d52}
+\label{sec:orgca2e804}
 \subsection{Lesson 4: Interacting with Numbers in Python (Integers and Floats)}
-\label{sec:org72e8c7f}
+\label{sec:org1b1843e}
 \section{PART 2 DATA STRUCTURES IN PYTHON}
-\label{sec:org3a2be08}
+\label{sec:org6874fd1}
 \subsection{Lesson 5: Creating and Working with Types in Python}
-\label{sec:orgd5ca9e2}
+\label{sec:org3bfbce8}
 \subsection{Lesson 6: Creating and Working with Lists in Python}
-\label{sec:org62d2ad7}
+\label{sec:org8c718df}
 \subsection{Lesson 7: Creating and Working with Dictionaries in Python}
-\label{sec:org113554a}
+\label{sec:org4825d58}
 \section{PART 3 INTERACTING WITH DATA STRUCTURES IN PYTHON}
-\label{sec:orgcd2b984}
+\label{sec:orga2065e7}
 \subsection{Lesson 8: Python Conditionals}
-\label{sec:orga14fe72}
+\label{sec:org9090d69}
 \subsection{Lesson 9: Python Loops}
-\label{sec:org6622ccb}
+\label{sec:org9f52cda}
 \subsection{Lesson 10: Python Functions}
-\label{sec:orgc965ff4}
+\label{sec:orgdc4bb8a}
 \subsection{Lesson 11: Python Classes}
-\label{sec:org0242623}
+\label{sec:orgec5b2af}
 \section{PART 4 WORKING WITH TEXT DATA}
-\label{sec:orgd1dc11f}
+\label{sec:org3f55bab}
 \subsection{Lesson 12: Python and Text Files}
-\label{sec:orgd62fbf3}
+\label{sec:org7e83d4c}
 \subsection{Lesson 13: Python and Modules and Libraries}
-\label{sec:orgc5a2beb}
+\label{sec:orge839f81}
 \subsection{Lesson 14: Working with Regex Library (1)}
-\label{sec:orgb404b74}
+\label{sec:orgd769975}
 \subsection{Lesson 15: Working With Regex Library (2)}
-\label{sec:org3757678}
+\label{sec:orga6b6c47}
 \section{PART 5 PYTHON AND WORKING WITH DATA STORED IN EXCEL}
-\label{sec:org5f458ff}
+\label{sec:orgcbe9d14}
 \subsection{Lesson 16: Reading Data from Excel Using the XLRD Library}
-\label{sec:org6aa0685}
+\label{sec:orgadc2496}
 \subsection{Lesson 17: Searching Data Imported from Excel}
-\label{sec:org3fd17f4}
+\label{sec:org7ae2351}
 \subsection{Lesson 18: Writing Data to Excel Files using the XLSWXWRITER Library}
-\label{sec:orgd20aa3f}
+\label{sec:org188eaff}
 \section{PART 6 PYTHON AND WORKING WITH DATA FROM THE WEB}
-\label{sec:org38aa268}
+\label{sec:org6f513e3}
 \subsection{Lesson 19: Finding HTML Code from a website}
-\label{sec:org22ef654}
+\label{sec:org35e35b6}
 \subsection{Lesson 20: Using the Python Library Requests to Interact with a Website}
-\label{sec:orgdd63240}
+\label{sec:org4110829}
 \subsection{Lesson 21: Using the Python Library Beautiful Soup to Rip Data from a Website}
-\label{sec:org57df63f}
+\label{sec:orgd3e35c6}
 \section{PART 7 PYTHON AND WAYS TO STORE DATA}
-\label{sec:org593cf42}
+\label{sec:orga54d70d}
 \subsection{Lesson 22: Storing Data in Text Files}
-\label{sec:org710c0e8}
+\label{sec:org218ce30}
 \subsection{Lesson 23: Storing Data in XML Files}
-\label{sec:orgd99ef5e}
+\label{sec:orgd3f137f}
 \end{document}

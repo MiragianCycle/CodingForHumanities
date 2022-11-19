@@ -57,7 +57,7 @@ If we go back to the language analogy, we know from real life experience that so
 
 As a result, Python users are diverse, encompassing people from the technical to the non-technical, from the sciences to the arts, and everyone in between.
 
-There is of course nothing wrong with learning C or any other programming language if you are feeling motivated, but to employ C to do many of the tasks that non-programmers typically perform on computers, will be the equivalent of using /Excaliber/ to slice a loaf of bread; it will get the job done, but you might damage your kitchen in the process.
+Ttable in the process.here is of course nothing wrong with learning C or any other programming language if you are feeling motivated, but to employ C to do many of the tasks that non-programmers typically perform on computers, will be the equivalent of using /Excaliber/ to slice a loaf of bread; it will get the job done, but you might damage your kitchen in the process.
 
 ** Installing Python
 ** Pythonic
