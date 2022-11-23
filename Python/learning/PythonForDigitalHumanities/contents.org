@@ -2,11 +2,15 @@
 #+AUTHOR: Theena Kumaragurunathan
 #+DATE: Fri Nov 18 12:16:00 AM +0530 2022
 #+EMAIL: theenat.k@gmail.com
-#+LICENS: MIT
+#+LICENSE: MIT
 
 * Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES
 ** Resources
 This notebook is based on lessons found here: [[https://pythonhumanities.com/][Python For Humanities]]
+** Audience
+Though the course is geared specifically towards the needs of the Humanities students and researchers, the techniques and concepts discussed here have direct application and applicability to the work of writers, fiction and non-fiction. Like the social sciences, writers too grapple with large chunks of text they'd encounter during research phases, writers too would be distilling the research into chunks that need to, thereafter, be distilled once more into their writing. The difference is academic rigor; the toolkit can be similar.
+
+Python is that: a vast array of toolkits that can be used to automate many of the most mundane computational tasks that both serious academics and writers encounter on a daily basis.
 ** Requirements
    1. Python 3.8 or >
    2. A text editor of your choice, but preferably PyCharm
@@ -51,18 +55,26 @@ In this analogy, the translated version of the recipe is a /Compiled Language/, 
 The advantages of one over the other is beyond the scope of this course.
 
 ** Why Python
-Why Python specifically then? Why not the C programming language?
+Why Python specifically then? Why not the C programming language? Why not JavaScript?
 
 If we go back to the language analogy, we know from real life experience that some languages are easier to pick up than others. Python excels because its grammar and lexicon are easier to grasp for the non-computer programmer. Python's syntax, once internalized, has a logic that isn't unlike learning a human language - in fact, Python's code is especially known for being _readable_ in a way, say, code written in /C/ or /C++/ or /Java/ aren't.
 
 As a result, Python users are diverse, encompassing people from the technical to the non-technical, from the sciences to the arts, and everyone in between.
 
-Ttable in the process.here is of course nothing wrong with learning C or any other programming language if you are feeling motivated, but to employ C to do many of the tasks that non-programmers typically perform on computers, will be the equivalent of using /Excaliber/ to slice a loaf of bread; it will get the job done, but you might damage your kitchen in the process.
+There is of course nothing wrong with learning C or any other programming language if you are feeling motivated, but to employ C to do many of the tasks that non-programmers typically perform on computers, will be the equivalent of using /Excaliber/ to slice a loaf of bread; it will get the job done, but you might damage your kitchen in the process. JavaScript, on the other hand, works in the intersection between HTML and CSS, and is best suited for extending the fucntionality of websites and web apps.
 
 ** Installing Python
+Python can be installed on Windows, MacOS and Linux. The steps vary. Please visit [[https://www.python.org/][Python.org]] for detailed instructions for your operating system.
+*** Text Editors
+This is personal choice. For beginners, [[https://www.jetbrains.com/pycharm-edu/][PyCharm Edu]], in my view, offers the best experience. [[https://code.visualstudio.com/][VSCode]] can be overwhelming to newcomers and tries to be the /code-anything-in-any-language/ text editor for programmers. For our purposes, PyCharm would be the most focused for a beginner. My own choice is a combination of PyCharm and NeoVim, the latter because it is the text editor of choice for any text editing task.
+
 ** Pythonic
+/Pythonic/ is the orthodox way to design and write code in Python. Think of this as a unviversal style guide on commonly accepted conventions and principles on Python code. This convention is followed by the Python community, both programmers and non-programmers, making the sharing of Python code as frictionless as possible. This also enables quick diagnosing of the problem should you run into errors with your code.
+
+For example when calling upon the *Python Library* /NumPy/, the code would be written as follows: =import NumPy as np=
+
 * PART 1 WORKING WITH DATA IN PYTHON SCRIPTS
-** Lesson 2: Story Data in PYthon Script
+** Lesson 2: Story Data in Python Script
 ** Lesson 3: Interacting with Strings in a Python Script
 ** Lesson 4: Interacting with Numbers in Python (Integers and Floats)
 * PART 2 DATA STRUCTURES IN PYTHON

@@ -1,0 +1,43 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 208
+    length: 79
+    placeholder_text: "# TODO: set the exponentiation `base`, it should be equal to\
+      \ the current value."
+    initial_state:
+      length: 79
+      offset: 208
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: jqLCfDFztuS5w/E471PR8A==
+  - offset: 335
+    length: 84
+    placeholder_text: "# TODO: use the `multiply` method with the parameter `base`\
+      \ to calculate the result."
+    initial_state:
+      length: 84
+      offset: 335
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: wv1iQ5Lt5x7EI6bC1RZ/Hm5oglfrF6IHqMJR4dbY5j8=
+  encrypted_text: 4KFk+qpVRwyk08I4n7KlKDMV/fCVaT4hOS/23D3jVRdCfLwzGMAu++LAk/N04Ov1n44TVTrnMTp+iwXf4YCMMpmm3HWfXYMzdpnfVg5e7a+M/L/Ri1I6QoPkJMQ+TreXw/GxWvl99I322efo2f0kFS4pBJiT8Cxl7hmU0AxzWAAVjQbCOg6KR056UYr0fP9Ke+ordoAxRcqOAHBh+gvQpioOvOByCJKBDP0uVsVQEmJPJM2T7xACMd9noFe3koBeUlMCM3b2WpTCafVqjZ2Z7+ydFM+KB5mAUIf/agrcpwbusHpwZjdeYsEC7DzBHSZyCUMw8j6FX/z85WUSVIHDg9rEbWUzBxOKGXc7vJ4TKSm31KNg3CtRN5pS16VGGq2oUIRh32lQb68SNDMK6RcSww8agOmcCjXEmaCT7GBIr2t9HKWDoOU7qOH/JaJGK/qhtJhF3WffE0kwxUwnnjExCSw1Fe1ZrlXjjJvDYK2rc3bhvTa1G1jSMeOPyu+OnRwr5c+RSvYMevfHAwM4NmMYCU7tnZyI7wgzNPF0ChFz0XV3iug20vdTe/+EA6PEKTbTVJKsrs7Znr+ek16oi7kjNKHyHPds0iBC73DIrX+ZDVqLhZ+lQKnyhuaDTqanXO+vX9eij0rjAGirucwrcv8zb0kb4y3thlFs8s+3nAtw8Rij0uCDUtiFm8r7UlSDjmJQxf4QtiHRZ0v1RQCSzZ5/t3FvJFhrS/CWmhFuicm5x5d34AtgzklxUiI5TzrMALRLLWNHLpWumq/ZMGSlotMiN8jQ3wXImybFJsTzYPF8N/y5Y6qF1HkIXhmX8gFCs+DyFcHMLl+V1GLBQEWU4INFhc7Z16ULIiXXS5elWc4KGn99nYZhqOwgmmiNRuk6V+mYsBu5NoVThc87OBuEn4G3xCOuPA5r7tSjWIKTaoxX7CqlFyakdKPrrqdCdXSit0ch6Uih3W19hxuht8qZ76QHsFUeWHcr1ds+6k1HyYSYpUwe+DbLf1qC4Vjv/CoTNfgXwXFxJm8L44JKXlHenylCKqjsAUDqHlj+YYCC+HDwbbF2GL/8/AQK/8nrILDD1nWB8Hszl1A8rcujc44YVzJxNLWQ5y7tbA+HXidlLgCjpjJJ0DKdNrXgePWD3T5PsWGJ6xiFR/LWPXF46IxCSr/mGwNBRVMcubkg+f0a48UhAH8=
+  learner_created: false
+- name: tests/test_task.py
+  visible: false
+  encrypted_text: XIlL2u+4gqNTqO7La77YdQTjn1YHMq4gonGgZk0sm4cuAKMflActXVPDwUXbZHLj6AQbGwK0iAfZABf5mC0MQf3wKUicFcdGOM4KwNa06Z5rqDN9PdfUqf4S8hV4xuk6QzANPahoqoU4Du40oTtmoViR/8Oo4eWCY/binGaPlvuNwfCAI+5LVSstppKdWQjwdCGjzSM+yCMDb4WhoTdBG5LVjffvC/BKw0liCV06NCrC+V1U9AZ3AanKgY3c80RGDnQYZuwdpa9lPE8RQ/pR8c6P7F663Le+JwzbDZj2tC6XVowSCi7zVO41jJna+zC+me8D3kJP3JapadMvX7ERzPnu2sFlD2rwfb4mSiERpW8M0pKT6UQi+QTFumECA1FdWFU7GRxzvu5jz7yqT+3F1KNqDT9Zf3+Y0KDf1q6mCa7qat+LuY2XmbJuBFUD/0gqIDURlBjBZPpCL+KLSrrRVh28MMXB3qykxGEyfrcS1I8LArKVlEP6+yfwFke9p4dBf0wv8WXqGoU8f8N3Sz4Imx8N53DNUwXkilotrla7yHVDrfBuSF1h8ByZmkJ+WBf8Z4+qfjXtlx2Q86j84tqNBShSEHjX2rsPTEH/WAtar5HZfYDnXjbku6qaA8i0l9SKw8UVDCRDf3ZkZwqKcGnAlUFy2pYjErMq4dpvI7K39XGPW71ffg8q4/IhHzuOfFe40+tk0PiRyq0mW5Is+hb7pXSOLTMYeY8L/aCvBBRE0s+uuAWAMQxu22Ts8dduphvWF36cWemDP2L5iujybqfQz4zLYGH+8MTpc+ZCD9udpkivPlfO4Agw1yH0sTSpDbffYYehbPFeCn5u9tGV8q5SmFOLvVSaGyI257XOZXERRAm1D2nbv9HzFyY8OHr7xq3iQhadiOWFdRpxRrKjbbXU3A==
+  learner_created: false
+- name: __init__.py
+  visible: false
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+status: Unchecked
+record: -1

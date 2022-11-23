@@ -1,4 +1,4 @@
-% Created 2022-11-18 Fri 13:30
+% Created 2022-11-22 Tue 14:28
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -31,19 +31,24 @@
 
 
 \section{Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES}
-\label{sec:orgcb638cf}
+\label{sec:orgbf4f7b3}
 \subsection{Resources}
-\label{sec:org57e20c7}
+\label{sec:orgd041691}
 This notebook is based on lessons found here: \href{https://pythonhumanities.com/}{Python For Humanities}
+\subsection{Audience}
+\label{sec:org592fb53}
+Though the course is geared specifically towards the needs of the Humanities students and researchers, the techniques and concepts discussed here have direct application and applicability to the work of writers, fiction and non-fiction. Like the social sciences, writers too grapple with large chunks of text they'd encounter during research phases, writers too would be distilling the research into chunks that need to, thereafter, be distilled once more into their writing. The difference is academic rigor; the toolkit can be similar.
+
+Python is that: a vast array of toolkits that can be used to automate many of the most mundane computational tasks that both serious academics and writers encounter on a daily basis.
 \subsection{Requirements}
-\label{sec:orgbf3381f}
+\label{sec:org0bae917}
 \begin{enumerate}
 \item Python 3.8 or >
 \item A text editor of your choice, but preferably PyCharm
 \end{enumerate}
 
 \subsection{Acknowledgements}
-\label{sec:org24e3735}
+\label{sec:orgb7082d4}
 This notebook owes a debt of gratitude to Python tutors all over the web,
 who have spent the last few decades evangelizing its usage outside the
 traditional domains of computer programming, arguing cogently that here
@@ -54,7 +59,7 @@ and more, Python finds itself to be a useful utility.
 
 This notebook follows the coursework made available by \href{https://datascience.si.edu/people/dr-william-mattingly}{Dr William Mattingly}] on \href{https://pythonhumanities.com/}{PythonHumanities.Com}
 \subsection{Copyright}
-\label{sec:org6fbc48f}
+\label{sec:org119de91}
 This is an \textbf{open notebook} based on the course created and taught by Dr William Mattingly. As such, the \textbf{material belongs to Dr Mattingly}; these are merely my notes.
 
 I am making this freely available in the hope that it helps a Humanities student who is looking to get a head start in their Python programming journey.
@@ -67,7 +72,7 @@ I welcome any pull requests! The notebook was written in a hurry, to meet a spec
 
 
 \subsection{What is Python}
-\label{sec:org9d5bbbb}
+\label{sec:orged03d9e}
 Python is a general purpose \textbf{interpreted} programming lanuage.
 
 It is \uline{general purpose} because its usage is wide, finding utility across a diverse range of disciplines. Finance professionals use it to analyze Excel data, data scientists use it find insights in vast troves of statistical data, programmers themselves use it to create simple applications to solve specific every-day problems they come across in their day-to-day work. Those of us outside the world of code and financial data, will find Python just as useful: automating the downloading of public domain images, summarizing an academic paper, finding keywords in a research report using textual analysis. The writer/programmer/educator Al Sweigart's \href{https://automatetheboringstuff.com/}{Automate the Boring Stuff With Python} highlights the many ways the menial tasks that we perform on computers can be relegated to Python. In this way, I liken it to a Swiss Army Knife of programming languages.
@@ -87,75 +92,84 @@ In this analogy, the translated version of the recipe is a \emph{Compiled Langua
 The advantages of one over the other is beyond the scope of this course.
 
 \subsection{Why Python}
-\label{sec:org13411fd}
-Why Python specifically then? Why not the C programming language?
+\label{sec:org9c318dd}
+Why Python specifically then? Why not the C programming language? Why not JavaScript?
 
 If we go back to the language analogy, we know from real life experience that some languages are easier to pick up than others. Python excels because its grammar and lexicon are easier to grasp for the non-computer programmer. Python's syntax, once internalized, has a logic that isn't unlike learning a human language - in fact, Python's code is especially known for being \uline{readable} in a way, say, code written in \emph{C} or \emph{C++} or \emph{Java} aren't.
 
 As a result, Python users are diverse, encompassing people from the technical to the non-technical, from the sciences to the arts, and everyone in between.
 
-There is of course nothing wrong with learning C or any other programming language if you are feeling motivated, but to employ C to do many of the tasks that non-programmers typically perform on computers, will be the equivalent of using \emph{Excaliber} to slice a loaf of bread; it will get the job done, but you might damage your kitchen in the process.
+There is of course nothing wrong with learning C or any other programming language if you are feeling motivated, but to employ C to do many of the tasks that non-programmers typically perform on computers, will be the equivalent of using \emph{Excaliber} to slice a loaf of bread; it will get the job done, but you might damage your kitchen in the process. JavaScript, on the other hand, works in the intersection between HTML and CSS, and is best suited for extending the fucntionality of websites and web apps.
 
 \subsection{Installing Python}
-\label{sec:org86b2dbe}
+\label{sec:org781502d}
+Python can be installed on Windows, MacOS and Linux. The steps vary. Please visit \href{https://www.python.org/}{Python.org} for detailed instructions for your operating system.
+\subsubsection{Text Editors}
+\label{sec:orgb464fa3}
+This is personal choice. For beginners, \href{https://www.jetbrains.com/pycharm-edu/}{PyCharm Edu}, in my view, offers the best experience. \href{https://code.visualstudio.com/}{VSCode} can be overwhelming to newcomers and tries to be the \emph{code-anything-in-any-language} text editor for programmers. For our purposes, PyCharm would be the most focused for a beginner. My own choice is a combination of PyCharm and NeoVim, the latter because it is the text editor of choice for any text editing task.
+
 \subsection{Pythonic}
-\label{sec:org1698700}
+\label{sec:org1e947e3}
+\emph{Pythonic} is the orthodox way to design and write code in Python. Think of this as a unviversal style guide on commonly accepted conventions and principles on Python code. This convention is followed by the Python community, both programmers and non-programmers, making the sharing of Python code as frictionless as possible. This also enables quick diagnosing of the problem should you run into errors with your code.
+
+For example when calling upon the \textbf{Python Library} \emph{NumPy}, the code would be written as follows: \texttt{import NumPy as np}
+
 \section{PART 1 WORKING WITH DATA IN PYTHON SCRIPTS}
-\label{sec:org1cc3413}
-\subsection{Lesson 2: Story Data in PYthon Script}
-\label{sec:org02b31d1}
+\label{sec:orgd7b70bf}
+\subsection{Lesson 2: Story Data in Python Script}
+\label{sec:orgd0e50f9}
 \subsection{Lesson 3: Interacting with Strings in a Python Script}
-\label{sec:orgca2e804}
+\label{sec:org6bdf9e9}
 \subsection{Lesson 4: Interacting with Numbers in Python (Integers and Floats)}
-\label{sec:org1b1843e}
+\label{sec:org7723fe3}
 \section{PART 2 DATA STRUCTURES IN PYTHON}
-\label{sec:org6874fd1}
+\label{sec:org99effe9}
 \subsection{Lesson 5: Creating and Working with Types in Python}
-\label{sec:org3bfbce8}
+\label{sec:org3466a3d}
 \subsection{Lesson 6: Creating and Working with Lists in Python}
-\label{sec:org8c718df}
+\label{sec:org1b2506a}
 \subsection{Lesson 7: Creating and Working with Dictionaries in Python}
-\label{sec:org4825d58}
+\label{sec:org48b3ee1}
 \section{PART 3 INTERACTING WITH DATA STRUCTURES IN PYTHON}
-\label{sec:orga2065e7}
+\label{sec:org0f33bce}
 \subsection{Lesson 8: Python Conditionals}
-\label{sec:org9090d69}
+\label{sec:orged444dd}
 \subsection{Lesson 9: Python Loops}
-\label{sec:org9f52cda}
+\label{sec:orgdaf1b6d}
 \subsection{Lesson 10: Python Functions}
-\label{sec:orgdc4bb8a}
+\label{sec:orgdebc223}
 \subsection{Lesson 11: Python Classes}
-\label{sec:orgec5b2af}
+\label{sec:orgd2684c6}
 \section{PART 4 WORKING WITH TEXT DATA}
-\label{sec:org3f55bab}
+\label{sec:org35e7e66}
 \subsection{Lesson 12: Python and Text Files}
-\label{sec:org7e83d4c}
+\label{sec:org9a3b39e}
 \subsection{Lesson 13: Python and Modules and Libraries}
-\label{sec:orge839f81}
+\label{sec:org0cbd411}
 \subsection{Lesson 14: Working with Regex Library (1)}
-\label{sec:orgd769975}
+\label{sec:org805cd48}
 \subsection{Lesson 15: Working With Regex Library (2)}
-\label{sec:orga6b6c47}
+\label{sec:orgc74c9c4}
 \section{PART 5 PYTHON AND WORKING WITH DATA STORED IN EXCEL}
-\label{sec:orgcbe9d14}
+\label{sec:org2b78423}
 \subsection{Lesson 16: Reading Data from Excel Using the XLRD Library}
-\label{sec:orgadc2496}
+\label{sec:org1e4075a}
 \subsection{Lesson 17: Searching Data Imported from Excel}
-\label{sec:org7ae2351}
+\label{sec:orgcae2274}
 \subsection{Lesson 18: Writing Data to Excel Files using the XLSWXWRITER Library}
-\label{sec:org188eaff}
+\label{sec:orgbfd6ca0}
 \section{PART 6 PYTHON AND WORKING WITH DATA FROM THE WEB}
-\label{sec:org6f513e3}
+\label{sec:orgfe50a00}
 \subsection{Lesson 19: Finding HTML Code from a website}
-\label{sec:org35e35b6}
+\label{sec:org217b818}
 \subsection{Lesson 20: Using the Python Library Requests to Interact with a Website}
-\label{sec:org4110829}
+\label{sec:org974c774}
 \subsection{Lesson 21: Using the Python Library Beautiful Soup to Rip Data from a Website}
-\label{sec:orgd3e35c6}
+\label{sec:orgf94020c}
 \section{PART 7 PYTHON AND WAYS TO STORE DATA}
-\label{sec:orga54d70d}
+\label{sec:org2a727f6}
 \subsection{Lesson 22: Storing Data in Text Files}
-\label{sec:org218ce30}
+\label{sec:orgbc6e376}
 \subsection{Lesson 23: Storing Data in XML Files}
-\label{sec:orgd3f137f}
+\label{sec:orgc0ac6a1}
 \end{document}
