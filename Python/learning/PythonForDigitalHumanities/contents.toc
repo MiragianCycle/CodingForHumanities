@@ -1,0 +1,40 @@
+\contentsline {section}{\numberline {1}Lesson 1 INTRODUCTION TO PYTHON FOR DIGITAL HUMANITIES}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Resources}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Audience}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Requirements}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Acknowledgements}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Copyright}{3}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}What is Python}{4}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Why Python}{5}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Installing Python}{5}{subsection.1.8}%
+\contentsline {subsubsection}{\numberline {1.8.1}Text Editors}{5}{subsubsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.9}Pythonic}{5}{subsection.1.9}%
+\contentsline {section}{\numberline {2}PART 1 WORKING WITH DATA IN PYTHON SCRIPTS}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Lesson 2: Story Data in Python Script}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Lesson 3: Interacting with Strings in a Python Script}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Lesson 4: Interacting with Numbers in Python (Integers and Floats)}{8}{subsection.2.3}%
+\contentsline {section}{\numberline {3}PART 2 DATA STRUCTURES IN PYTHON}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Lesson 5: Creating and Working with Types in Python}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Lesson 6: Creating and Working with Lists in Python}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Lesson 7: Creating and Working with Dictionaries in Python}{8}{subsection.3.3}%
+\contentsline {section}{\numberline {4}PART 3 INTERACTING WITH DATA STRUCTURES IN PYTHON}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Lesson 8: Python Conditionals}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Lesson 9: Python Loops}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Lesson 10: Python Functions}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Lesson 11: Python Classes}{8}{subsection.4.4}%
+\contentsline {section}{\numberline {5}PART 4 WORKING WITH TEXT DATA}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Lesson 12: Python and Text Files}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Lesson 13: Python and Modules and Libraries}{8}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Lesson 14: Working with Regex Library (1)}{8}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Lesson 15: Working With Regex Library (2)}{8}{subsection.5.4}%
+\contentsline {section}{\numberline {6}PART 5 PYTHON AND WORKING WITH DATA STORED IN EXCEL}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Lesson 16: Reading Data from Excel Using the XLRD Library}{8}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Lesson 17: Searching Data Imported from Excel}{8}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Lesson 18: Writing Data to Excel Files using the XLSWXWRITER Library}{8}{subsection.6.3}%
+\contentsline {section}{\numberline {7}PART 6 PYTHON AND WORKING WITH DATA FROM THE WEB}{8}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Lesson 19: Finding HTML Code from a website}{8}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Lesson 20: Using the Python Library Requests to Interact with a Website}{8}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Lesson 21: Using the Python Library Beautiful Soup to Rip Data from a Website}{8}{subsection.7.3}%
+\contentsline {section}{\numberline {8}PART 7 PYTHON AND WAYS TO STORE DATA}{8}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Lesson 22: Storing Data in Text Files}{8}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Lesson 23: Storing Data in XML Files}{8}{subsection.8.2}%

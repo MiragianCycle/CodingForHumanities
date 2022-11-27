@@ -1,2 +1,2 @@
-variable = 1
+vaw = 1
 print(variable)

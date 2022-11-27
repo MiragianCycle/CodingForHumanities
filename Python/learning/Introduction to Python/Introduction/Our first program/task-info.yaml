@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 32
-    length: 19
+    length: 6
     placeholder_text: Type your name here
     initial_state:
       length: 19
