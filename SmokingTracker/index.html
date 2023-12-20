@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smoking Tracker</title>
+</head>
+<body>
+  <h1>Smoking Tracker</h1>
+  <form id="smokingForm">
+    <label for="cigarettes">Number of Cigarettes:</label>
+    <input type="number" id="cigarettes" name="cigarettes" required>
+    <br><br>
+    <input type="button" value="Submit" onclick="submitForm()">
+  </form>
+
+  <script>
+    function submitForm() {
+      var cigarettes = document.getElementById("cigarettes").value;
+      sendData(cigarettes);
+    }
+
+    function sendData(cigarettes) {
+      var url = '1yBEiiYH8jzpTdNerpnbiJNnQspv-SjY1hG-F2pA8MWw'; // Replace with your deployed web app URL
+      var payload = {
+        method: 'post',
+        payload: {
+          cigarettes: cigarettes
+        },
+        muteHttpExceptions: true
+      };
+
+      // Send data to the script
+      google.script.run.withSuccessHandler(function(response) {
+        console.log(response);
+        alert(response);
+      }).withFailureHandler(function(error) {
+        console.error(error);
+        alert('Error occurred, please try again.');
+      }).processForm(payload);
+    }
+  </script>
+</body>
+</html>
+
