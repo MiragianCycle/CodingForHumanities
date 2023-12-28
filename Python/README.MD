@@ -20,10 +20,19 @@ Python is a widely-used, high-level programming language known for its simplicit
 
 ## Getting Started
 
+### Main Resources
+
+1. [Python For Everybody](https://www.py4e.com/)
+2. [Python for Digital Humanities](https://pythonhumanities.com/python-for-dh-course/)
+
+
 To start your Python journey:
 
 - **Install Python:** Download and install Python from the [official website](https://www.python.org/).
-- **Open the Notebook:** Launch a Python IDE like Jupyter Notebook or VSCode and open the provided notebook to begin coding.
+
+
+
+
 
 ## Additional Resources
 
