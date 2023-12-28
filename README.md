@@ -38,7 +38,7 @@ For students and academics in humanities and social sciences, programming can re
 
 ### Why these Programming Languages for Non-Programmers?
 
-**[Dr Racket](https://github.com/MiragianCycle/CodingForHumanities/blob/main/DrRacket/README.MD)**
+**[Dr Racket](DrRacket/README.MD)**
 
 Dr Racket offers a gentle introduction to programming concepts through a user-friendly environment. Its simple syntax and interactive nature make it an ideal choice for beginners diving into coding without the complexities of traditional languages.
 
