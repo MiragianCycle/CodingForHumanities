@@ -39,19 +39,21 @@ For students and academics in humanities and social sciences, programming can re
 
 ### Why these Programming Languages for Non-Programmers?
 
-**Dr Racket**
+**[Dr Racket](https://github.com/MiragianCycle/CodingForHumanities/blob/main/DrRacket/README.MD)**
 Dr Racket offers a gentle introduction to programming concepts through a user-friendly environment. Its simple syntax and interactive nature make it an ideal choice for beginners diving into coding without the complexities of traditional languages.
 
-**Common Lisp**
+**[Common Lisp](https://github.com/MiragianCycle/CodingForHumanities/blob/main/LISP/README.MD)**
 Common Lisp, known for its expressive power, enables non-programmers to delve into the world of functional programming. Its robust features and rich history make it a compelling language to explore for those interested in deepening their understanding of programming paradigms.
 
-**Python**
+**[Python](https://github.com/MiragianCycle/CodingForHumanities/blob/main/Python/README.MD)**
 Python's readability and versatility make it highly accessible for beginners. It’s widely used in various industries, including humanities research, due to its extensive libraries for data analysis, text processing, and automation.
 
-**Perl**
+**[Perl](https://github.com/MiragianCycle/CodingForHumanities/blob/main/Perl/README.MD)**
+
 Perl’s succinctness and flexibility cater to non-programmers seeking powerful text processing capabilities. It's particularly useful for humanities scholars dealing with large volumes of textual data or implementing scripts for data manipulation.
 
-**Lua**
+**[Lua](https://github.com/MiragianCycle/CodingForHumanities/blob/main/Lua/README.MD)**
+
 Lua’s lightweight design and simplicity make it an excellent choice for beginners exploring scripting languages. Its ease of embedding into applications and games might intrigue non-programmers interested in exploring diverse applications of coding beyond traditional software development.
 
 
