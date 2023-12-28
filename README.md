@@ -4,6 +4,8 @@ Welcome to Coding for Humanities! This repository is designed as a hub for non-p
 
 ## Introduction
 
+Testing
+
 ### What is this repository?
 
 This repository serves as a learning and collaboration space for individuals intrigued by programming languages but coming from non-technical backgrounds. It focuses on languages like Dr Racket, Common Lisp, Python, Perl, and Lua, providing notebooks and resources to facilitate an easier entry into the coding world.
