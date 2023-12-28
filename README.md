@@ -95,8 +95,6 @@ Join our community discussions and share your experiences, questions, or discove
 This project is licensed under the [MIT License](LICENSE), allowing you to modify, distribute, and use the code for your purposes.
 
 ---
-
-This README aims to provide a comprehensive starting point for users unfamiliar with programming while enticing them to explore the world of coding through the lens of humanities. Adjust and expand upon it as needed to best fit the specific goals and audience of the project! 
  
  
  
