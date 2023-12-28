@@ -1,5 +1,4 @@
 
-# Coding for Humanities
 
 Welcome to Coding for Humanities! This repository is designed as a hub for non-programmers interested in programming, tailored specifically for writers and scholars in the humanities.
 
