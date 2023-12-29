@@ -4,7 +4,6 @@ Welcome to Coding for Humanities! This repository is designed as a hub for non-p
 
 ## Introduction
 
-Testing
 
 ### What is this repository?
 
