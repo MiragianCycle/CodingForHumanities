@@ -1,18 +1,17 @@
 
 
-# Introduction
 
 Welcome to Coding for Humanities! This repository is designed as a hub for non-programmers interested in programming, tailored specifically for writers and scholars in the humanities.
 
-### What is this repository?
+# What is this repository?
 
 This repository serves as a learning and collaboration space for individuals intrigued by programming languages but coming from non-technical backgrounds. It focuses on languages like Dr Racket, Common Lisp, Python, Perl, and Lua, providing notebooks and resources to facilitate an easier entry into the coding world.
 
-### Why should non-programmers take an interest in programming?
+## Why should non-programmers take an interest in programming?
 
 Programming isn't solely for software engineers. It offers valuable tools for automation, streamlining workflows, and enhancing productivity in various fields. For humanities scholars and writers, programming can empower them to automate repetitive tasks, analyze texts efficiently, and explore creative ways to present their work.
 
-### Intended Audiences
+## Intended Audiences
 
 **Writers (Novelists/Screenwriters/Non-Fiction Writers)**
 
@@ -36,7 +35,7 @@ For students and academics in humanities and social sciences, programming can re
 4. Digital Humanities: Explore the intersection of technology and humanities through projects involving digitization, archiving, or cultural heritage preservation.
 
 
-### Why these Programming Languages for Non-Programmers?
+## Why these Programming Languages for Non-Programmers?
 
 **[Dr Racket](https://github.com/MiragianCycle/CodingForHumanities/blob/main/DrRacket/README.MD)**
 
