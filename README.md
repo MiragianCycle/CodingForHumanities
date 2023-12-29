@@ -37,11 +37,11 @@ For students and academics in humanities and social sciences, programming can re
 
 ## Why these Programming Languages for Non-Programmers?
 
-**[Dr Racket](https://miragiancycle.github.io/CodingForHumanities/DrRacket/README.MD)**
+**[Dr Racket](DrRacket/README.MD)**
 
 Dr Racket offers a gentle introduction to programming concepts through a user-friendly environment. Its simple syntax and interactive nature make it an ideal choice for beginners diving into coding without the complexities of traditional languages.
 
-**[Common Lisp](https://github.com/MiragianCycle/CodingForHumanities/blob/main/LISP/README.MD)**
+**[Common Lisp](LISP/README.MD)**
 
 Common Lisp, known for its expressive power, enables non-programmers to delve into the world of functional programming. Its robust features and rich history make it a compelling language to explore for those interested in deepening their understanding of programming paradigms.
 
