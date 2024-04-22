@@ -1,4 +1,4 @@
-# Day 1 Syllabus:
+# Day 1:
 
 ## Hour 1: Getting Started with Lua
 - **15 minutes**: Introduction to Lua programming language.
