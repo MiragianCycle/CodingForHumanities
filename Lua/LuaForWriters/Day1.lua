@@ -49,6 +49,7 @@ end
 myFunction()
 
 
+
 -- Arithmetic operations
 local resultAddition = 10 + 5
 print(resultAddition)
@@ -82,3 +83,11 @@ print(logicalNot)
 --
 
 
+
+-- The following are examples where I am reusing some of the variables ddeclared above - notice that (i think) i am going out of scope and against best practices with this method
+
+local testFunction = function ()
+  print(myBool)
+end
+
+testFunction()
