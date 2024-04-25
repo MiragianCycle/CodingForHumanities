@@ -224,19 +224,14 @@ end
 -- Problem 1: Print Even Numbers
 -- Write a Lua script that prints all even numbers from 1 to 20 using a for loop.
 
-print("Exercise 1: Print Even Numbers")
-for isThisEven = 1, 20, 1 do
-  if isThisEven % 2 == 0 then
-  print(isThisEven)
-  end
-end
 
 
 
--- Problem 2: Factorial Calculation
--- Write a Lua function to calculate the factorial of a given positive integer using a while loop. Test your function with different input values.
+
+
 -- Problem 3: Prime Number Check
 -- Write a Lua function to check if a given number is prime or not. Use a nested loop to iterate through all possible divisors of the number.
+
 -- Problem 4: Fibonacci Sequence
 -- Write a Lua script to generate the Fibonacci sequence up to a specified number of terms using a for loop.
 -- Problem 5: Pattern Printing
