@@ -12,6 +12,15 @@ end
 -- PROBLEM 2: Factorial
 --Using a 'for' loop, write a program that accepts a user input for a number, checks if the number is a positive number, and if so calculates this userinputNumber's factorial
 
+-- Pseudocode Factorial Calculation:
+-- 1. Input: a positive integer "n"
+-- 2. Initialize a variable "result" to 1
+-- 3. Initialize a variable "i" to 1
+-- 4. While "i" is less than or equal to "n", do the following:
+--      a. Multiply "result" by "i"
+--      b. Increment "i" by 1
+-- 5. Output the value of "result" as the factorial of "n"
+--
 -- Function to calculate the factorial of a given positive integer
 local function factorial(n)
     -- Check if n is a positive integer
