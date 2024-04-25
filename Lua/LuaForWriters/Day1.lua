@@ -170,7 +170,7 @@ print(isValidNumber(-10))
 print(isValidNumber(150))
 print(isValidNumber(0))
 --
--- In above example, the isValidNumber function checks whether a given number meets certain criteria. The function uses multiple logical operators to define these criteria:
+-- In this example, the isValidNumber function checks whether a given number meets certain criteria. The function uses multiple logical operators to define these criteria:
 --
 -- The number must be positive and less than or equal to 100, OR
 -- The number can be negative.
@@ -181,3 +181,70 @@ print(isValidNumber(0))
 -- (number > 0 and number <= 100): Checks if the number is positive and falls within the range [1, 100].
 -- (number < 0): Checks if the number is negative.
 -- These two conditions are combined using the logical or operator, indicating that if either condition is true, the overall result is true.
+--
+-- LOOPS
+-- The 'while' Loop
+-- The while loop repeats a piece of code until a specified condition is true. This looks like so
+-- Example syntax:
+-- while condition do
+--   --code to execute
+-- end
+print("This is a while Loop")
+local i = 1
+while i <= 5 do
+print(i)
+i = i + 1
+end
+
+
+--The 'for' Loop
+-- The 'for' loop executes a block of code for a specified number of times
+--Example syntax:
+--for varaiable = startValue, endValue, stepValue do 
+--execute some code
+--end
+--
+print("This is a for Loop")
+for y = 1, 5, 1 do
+  print(y)
+end
+
+-- LOOP CONTROL STATEMENTS
+-- Lua provides loop control statements that allow to alter the flow of loop execution. Here's an example
+print("This is a break statement, part of loop control statements")
+for z = 1, 10 do
+if z == 5 then
+  break
+end
+print(z)
+end
+
+
+-- EXERCISES
+-- Problem 1: Print Even Numbers
+-- Write a Lua script that prints all even numbers from 1 to 20 using a for loop.
+
+print("Exercise 1: Print Even Numbers")
+for isThisEven = 1, 20, 1 do
+  if isThisEven % 2 == 0 then
+  print(isThisEven)
+  end
+end
+
+
+
+-- Problem 2: Factorial Calculation
+-- Write a Lua function to calculate the factorial of a given positive integer using a while loop. Test your function with different input values.
+-- Problem 3: Prime Number Check
+-- Write a Lua function to check if a given number is prime or not. Use a nested loop to iterate through all possible divisors of the number.
+-- Problem 4: Fibonacci Sequence
+-- Write a Lua script to generate the Fibonacci sequence up to a specified number of terms using a for loop.
+-- Problem 5: Pattern Printing
+-- Write a Lua script to print the following pattern using nested loops:
+-- markdown
+-- Copy code
+-- *
+-- **
+-- ***
+-- ****
+-- *****
