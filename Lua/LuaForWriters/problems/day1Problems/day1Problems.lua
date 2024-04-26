@@ -80,58 +80,6 @@ main()
 
 -- PROBLEM 3: Prime Number Check
 
--- Function to check if a given number is prime
-local function isPrime(n)
-    -- Check if n is less than 2
-    if n < 2 then
-        return false  -- Numbers less than 2 are not prime
-    end
-    
-    -- Iterate through all possible divisors of n from 2 up to the square root of n
-    for i = 2, math.sqrt(n) do
-        -- Check if n is divisible evenly by i
-        if n % i == 0 then
-            return false  -- If n is divisible by i without remainder, it's not prime
-        end
-    end
-    
-    return true  -- If no divisors are found, n is prime
-end
-
--- Main function to handle user input and call the isPrime function
-local function main()
-    -- Prompt the user to enter a positive integer to check if it's prime
-    print("Enter a positive integer to check if it's prime:")
-    
-    -- Read user input and convert it to a number
-    local inputStr = io.read()
-    local inputNumber = tonumber(inputStr)
-    
-    -- Check if input is a valid number
-    if not inputNumber then
-        print("Invalid input. Please enter a valid positive integer.")
-        return  -- Exit the function
-    end
-    
-    -- Call the isPrime function with inputNumber as the argument
-    local isPrimeResult = isPrime(inputNumber)
-    
-    -- Print the result indicating whether the input number is prime or not
-    if isPrimeResult then
-        print(inputNumber .. " is a prime number.")
-    else
-        print(inputNumber .. " is not a prime number.")
-    end
-end
-
--- Call the main function to start the program
-main()
-
-
-
-
-
-
 
 
 -- Prime Number Check:
@@ -146,8 +94,50 @@ main()
 --                1.2.1.1. If n is divisible by i without any remainder, return false since n is not prime.
 --    1.3. If no divisors are found within the range [2, sqrt(n)], return true, indicating that n is prime.
 --
+-- 
+
+-- Function to check if a given number is prime
+local function isPrime(n)
+    -- Check if n is less than 2
+    if n < 2 then
+        return false  -- Numbers less than 2 are not prime
+    end
+    -- Iterate through all possible divisors of n from 2 up to the square root of n
+    for i = 2, math.sqrt(n) do
+        -- Check if n is divisible evenly by i
+        if n % i == 0 then
+            return false  -- If n is divisible by i without remainder, it's not prime
+        end
+    end
+    return true  -- If no divisors are found, n is prime
+end
+
+-- Main function to handle user input and call the isPrime function
+local function main()
+    -- Prompt the user to enter a positive integer to check if it's prime
+    print("Enter a positive integer to check if it's prime:")
+    -- Read user input and convert it to a number
+    local inputStr = io.read()
+    local inputNumber = tonumber(inputStr)
+    -- Check if input is a valid number
+    if not inputNumber then
+        print("Invalid input. Please enter a valid positive integer.")
+        return  -- Exit the function
+    end
+    -- Call the isPrime function with inputNumber as the argument
+    local isPrimeResult = isPrime(inputNumber)
+    -- Print the result indicating whether the input number is prime or not
+    if isPrimeResult then
+        print(inputNumber .. " is a prime number.")
+    else
+        print(inputNumber .. " is not a prime number.")
+    end
+end
+
+-- Call the main function to start the program
+main()
 -- 2. Define a function main() to handle user input and call the isPrime function.
---
+-- Pseudocode
 --    Function main():
 --    2.1. Print a prompt asking the user to enter a positive integer to check if it's prime.
 --    2.2. Read user input from the standard input and store it in a variable inputStr.
@@ -163,4 +153,8 @@ main()
 
 
 
--- PROBLEM 4: =ns
+-- PROBLEM 4: 
+--
+--
+--PROBLEM 5
+-- Based on problem 3 above, write a program to list the prime numbers between 1 and 100
