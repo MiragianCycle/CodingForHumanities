@@ -2,5 +2,8 @@
     "editor.formatOnType": true,
     "[lisp]": {
         "editor.wordSeparators": "`|;:'\",()"
+    },
+    "[commonlisp]": {
+        "editor.wordSeparators": "`|;:'\",()"
     }
 }
