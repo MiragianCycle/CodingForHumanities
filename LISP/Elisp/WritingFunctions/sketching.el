@@ -39,6 +39,7 @@
 
 
 ;;; THEENA FUNCTION 1 REMIXED
+;; Here I have just changed variables around to create a new function called my protagonists. Nothing special, but a small step in becoming comfortable enough to tinker with elisp  
 
 (defvar my-proto nil "List of character profiles.")
 
@@ -58,7 +59,7 @@
       (dolist (pair proto)
         (unless (eq (car pair) 'name)
           (princ (format "  %s: %s\n" (car pair) (cdr pair)))))
-      (princ "\n")))
+      (princ "\n"))
 
 
 ;;; FUNCTION 2:
@@ -78,4 +79,52 @@
    "- Conflict: \n"
    "- Description: \n"))
 
+
+;; Fiction Sketcher: Logline, Summary, and Character Profiles
+
+(defvar fiction-sketch-logline nil "Stores the logline (max 160 chars).")
+(defvar fiction-sketch-summary nil "Stores the summary (max 500 chars).")
+(defvar fiction-sketch-characters nil "List of character psychological profiles.")
+
+(defun fiction-sketch-create ()
+  "Guide through the initial fiction sketching process."
+  (interactive)
+  ;; Step 1: Logline
+  (setq fiction-sketch-logline
+        (read-string "Logline (max 160 chars): "))
+  (when (> (length fiction-sketch-logline) 160)
+    (setq fiction-sketch-logline (substring fiction-sketch-logline 0 160))
+    (message "Logline truncated to 160 characters."))
+
+  ;; Step 2: Summary
+  (setq fiction-sketch-summary
+        (read-string "Summary (max 500 chars): "))
+  (when (> (length fiction-sketch-summary) 500)
+    (setq fiction-sketch-summary (substring fiction-sketch-summary 0 500))
+    (message "Summary truncated to 500 characters."))
+
+  ;; Step 3: Character Profiles
+  (setq fiction-sketch-characters nil)
+  (let ((add-more t))
+    (while add-more
+      (let* ((name (read-string "Character name: "))
+             (self-esteem (read-number "Self-esteem (1-5): "))
+             (social-reputation (read-number "Social reputation (1-5): "))
+             (profile `((name . ,name)
+                        (self-esteem . ,self-esteem)
+                        (social-reputation . ,social-reputation))))
+        (push profile fiction-sketch-characters)
+        (setq add-more
+              (y-or-n-p "Add another character? ")))))
+
+  ;; Display results
+  (with-output-to-temp-buffer "*Fiction Sketch*"
+    (princ (format "Logline: %s\n\n" fiction-sketch-logline))
+    (princ (format "Summary: %s\n\n" fiction-sketch-summary))
+    (princ "Character Profiles:\n")
+    (dolist (char fiction-sketch-characters)
+      (princ (format "  Name: %s\n    Self-esteem: %d\n    Social reputation: %d\n\n"
+                     (cdr (assoc 'name char))
+                     (cdr (assoc 'self-esteem char))
+                     (cdr (assoc 'social-reputation char)))))))
 
